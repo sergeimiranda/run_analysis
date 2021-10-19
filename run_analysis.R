@@ -2,6 +2,7 @@
 
 library(dplyr)
 #Reads feature information and activity labels
+#Place Samsung data in folder: UCI-HAR-Dataset
         #VariableFeature: table of labels for every variable used
         VariableFeature <- read.table("./UCI-HAR-Dataset/features.txt")
         #ActivityLabels: Table of activity labels used
