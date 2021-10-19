@@ -56,7 +56,7 @@ library(dplyr)
         #Grouping Vectors
         variablesnames <- names(select(FullSet, !c(Subject, Activity)))
         FullSet_Average <- FullSet %>% group_by(Subject,Activity) %>% 
-                summarise(across(everything()),list(mean))
+                summarise(across(everything()))
         
         write.table(apply(FullSet_Average,2,as.character),"./Tidy_Averaged.txt"
                     , row.names=FALSE)
