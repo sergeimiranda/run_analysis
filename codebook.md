@@ -7,6 +7,16 @@ File:  run_analysis.r
 Description
 R Script to accommodate and analyze data from a Samsung wearable device. Data collected from the UCI Machine Learning Repository, data set: Human Recognition Using Smartphones Data Set.
 
+A full description is available at the site where the data was obtained:
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+The data for the project:
+
+ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
+
+
+
 The script executes the following:
 
 -Reads feature variables and converts them to a data frame
