@@ -6,3 +6,5 @@ Course Final Project
 R Program script in run_analysis.R 
 
 Data information in Data-Book.md
+
+Processed data in Tidy_Averaged.txt
